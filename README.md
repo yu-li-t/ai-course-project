@@ -39,3 +39,17 @@ python plot_event_study.py   # 生成平行趋势图
 ```
 
 环境：Python 3.13，依赖 pandas / numpy / statsmodels / linearmodels / matplotlib
+
+其他作业：Mall4j 商城本地部署
+本仓库的 mall4j/ 子文件夹另附一个 Java 电商网站部署作业：
+      文件
+      说明
+      mall4j/mall4j-source.zip
+      完整项目源码（已排除 node_modules / target 等构建产物）
+      mall4j/README.md
+      部署说明与目录介绍
+运行方式：下载并解压 mall4j-source.zip → 安装 Docker / JDK 17 / Node.js / pnpm → 双击 启动商城.bat，等待 30–60 秒。
+访问地址：
+- 前台商城：http://localhost/
+- 管理后台：http://127.0.0.1:9527/ （账号 admin，密码 123456）
+详见压缩包内 DEPLOY-README.md。
